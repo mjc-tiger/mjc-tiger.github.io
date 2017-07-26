@@ -31,8 +31,8 @@ function odliczanie()
 			$('.footer').fadeIn(2000);
 		},1000);
 
-		$('#about').on('click', function(){
-			$('.tile5').html("test1");
+		$('#about').click(function(){
+			$('.tile5').load("whoamI.html");
 		});
 		$('#offer').on('click', function(){
 			$('.tile5').html("test2");

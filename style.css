@@ -114,19 +114,41 @@ body {
   background-color: #666666;
   text-align: left;
 }
+/*--- INDEX.HTML ---*/
+.tile5 h1 {
+  font-family: 'Courgette', cursive;
+  padding-top: 30px;
+  text-align: center;
+  font-size: 3.5em;
+}
+.me-txt {
+  font-size: 25px;
+  margin-top: 50px;
+  margin-bottom: 65px;
+}
+
+/*--- WHO AM I? ---*/
 .tile5 img {
   height: 130px;
   width: 130px;
   margin: 0;
+  margin-right: 15px;
   padding: 0;
   border-radius: 50%;
   border: solid 2px white;
+}
+.tech ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.tech li {
   display: inline;
 }
-.tile5 span {
-  /*float: left;*/
-  display: block;
-}
+
+
+
+
 .in {
   margin: 10px;
   width: 105px;
