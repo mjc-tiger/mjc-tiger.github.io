@@ -1,3 +1,7 @@
+
+
+
+// COUNTING HOURS:MINUTES:SECONDS
 function odliczanie()
 	{
 		var dzisiaj = new Date();
@@ -17,11 +21,13 @@ function odliczanie()
 		 setTimeout("odliczanie()",1000);
 	}
 
+// HIDDEN PARTS OF WEBPAGE
 	$('.square').hide();
 	$('.footer').hide();
 
+// DO WHEN WEBPAGE LOADED
 	$(document).ready(function(){
-
+// ANIMATIONS
 		setTimeout(function(){
 			$('#square1').slideDown('slow');
 			$('#square2').fadeIn('slow');
@@ -31,14 +37,21 @@ function odliczanie()
 			$('.footer').fadeIn(2000);
 		},1000);
 
+// LOAD NEW CONTENT
 		$('#about').click(function(){
 			$('.tile5').load("whoamI.html");
 		});
 		$('#offer').on('click', function(){
-			$('.tile5').html("test2");
+			swal("Sorry,", "but the 'My offer' is not available yet", "error");
 		});
+		$("#edu").click(function(){
+      $('.tile5').load("edu.html");
+    });
+		$("#contact").click(function(){
+      $('.tile5').load("contact.html");
+    });
 
-
+// NEW RANDOM QUOTE GENERATOR
 
 		//When button is clicked then get quote from API link
  $('#b').on('click', function(){
