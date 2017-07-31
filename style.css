@@ -114,6 +114,9 @@ body {
   background-color: #666666;
   text-align: left;
 }
+
+/* ---------------------------------------------------------------------- */
+
 /*--- INDEX.HTML ---*/
 .tile5 h1 {
   font-family: 'Courgette', cursive;
@@ -175,9 +178,7 @@ body {
   font-size: 30px;
 }
 
-
-
-
+/* ---------------------------------------------------------------------- */
 
 .in {
   margin: 10px;
@@ -197,26 +198,29 @@ body {
   margin: 10px;
   width: 105px;
   height: 142px;
-  background-color: #c9510c;
+  /*background-color: #c9510c;*/
+  /*background-color: #6e5494;*/
+  background: linear-gradient(#a77fe0,#6e5494);
   float:left;
 }
 .GitHub:hover {
   transform: scale(1.1, 1.1);
   transition: 0.2s;
-  background: #EB732E;
+  background: linear-gradient(#c99ff2,#8f76B6);
   border-bottom: 5px solid white;
 }
 .CodePen {
   margin: 10px;
   width: 105px;
   height: 142px;
-  background-color: #006400;
+  /*background-color: #006400;*/
+  background-color: #212121;
   float:left;
 }
 .CodePen:hover {
   transform: scale(1.1, 1.1);
   transition: 0.2s;
-  background: #228622;
+  background: #434343;
   border-bottom: 5px solid white;
 }
 .Twitter {
