@@ -117,6 +117,53 @@ i.fa {
   margin-top: 50px;
   margin-bottom: 65px;
 }
+/*--- WHO AM I? ---*/
+.main-img {
+  float: left;
+  height: 130px;
+  width: 130px;
+  margin: 0;
+  margin-right: 15px;
+  padding: 0;
+  border-radius: 50%;
+  border: solid 2px white;
+}
+.tech {
+  width: 100%;
+  margin: 15px 0px 0px 0px;
+  text-align: center;
+}
+.tech ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.tech li {
+  margin: 0px 4px 0px 4px;
+  display: inline;
+}
+/*--- EDUCATION ---*/
+.pwr {
+  float: left;
+  height: 110px;
+  margin-right: 15px;
+}
+.pwr-txt {
+  font-size: 23px;
+}
+.courses {
+  margin-top: 5px;
+}
+/*--- CONTACT ---*/
+.contact-txt {
+  text-align: center;
+  color: black;
+  font-size: 25px;
+}
+#contact-env {
+  color: black;
+  font-size: 30px;
+}
 /* ---------------------------------------------------------------------- */
 
 /* ---------------------- socialMedia ----------------------*/
