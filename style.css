@@ -2,68 +2,47 @@ body {
   background-color: #303030;
   color: white;
   font-family: 'Josefin Sans', sans-serif;
+  height: 100%;
 }
 #container {
-  width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 80%;
+  margin: 0px 10% 0px 10%;
+  padding-bottom: 120px;
 }
 .rectangle {
-  width: 960px;
-  margin: 20px;
+  width: 100%;
+}
+#logo {
+  float: left;
+  font-size: 4rem;
+  width: 74%;
+  margin: 10px 0 10px 0;
+}
+#zegar {
+  float: left;
+  font-size: 4rem;
+  margin: 10px 0 10px 0;
 }
 .square {
   width: 50%;
   float: left;
   text-align: center;
+  margin-bottom: 30px;
 }
-#logo {
-  float: left;
-  font-size: 70px;
-  width: 700px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-}
-#zegar {
-  float: left;
-  font-size: 70px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+
+/* TILE 1 */
+i.fa {
+  color:white;
+  font-size: 4.8rem;
+  margin-top: 30px;
 }
 .tile1 {
-  /*złoty podział -> fi=1.618, więc: 230/1.618=142px;*/
-  margin: 10px;
-  width: 230px;
+  margin: 10px 1% 5px 1%;
+  width: 48%;
   height: 142px;
   background-color: #3095D3;
   float:left;
   transition: transform 0.5s;
-}
-.tile2 {
-  margin: 10px;
-  width: 230px;
-  height: 142px;
-  background-color: #666666;
-  float:left;
-  transition: transform 0.5s;
-}
-.tile3 {
-  margin: 10px;
-  width: 230px;
-  height: 142px;
-  background-color: #93C748;
-  float:left;
-  transition: transform 0.5s;
-}
-.tile4 {
-  margin: 10px;
-  width: 480px;
-  height: 142px;
-  background-color: #ee5232;
-  text-align: justify;
-  position:relative;
-  font-size: 20px;
 }
 .tile1:hover {
   background-color: #52B7F5;
@@ -71,11 +50,29 @@ body {
   border-radius: 2%;
   cursor: pointer;
 }
+/* TILE 2 */
+.tile2 {
+  margin: 5px 1% 5px 1%;
+  width: 48%;
+  height: 142px;
+  background-color: #666666;
+  float:left;
+  transition: transform 0.5s;
+}
 .tile2:hover {
   background-color: #888888;
   transform: rotate(-2deg);
   border-radius: 2%;
   cursor: pointer;
+}
+/* TILE 3 */
+.tile3 {
+  margin: 5px 1% 5px 1%;
+  width: 48%;
+  height: 142px;
+  background-color: #93C748;
+  float:left;
+  transition: transform 0.5s;
 }
 .tile3:hover {
   background-color: #B5E96A;
@@ -83,106 +80,50 @@ body {
   border-radius: 2%;
   cursor: pointer;
 }
-.buttons {
-  position: absolute;
-  right:  0;
-  bottom: 0;
-  margin: 0px;
-}
-#twitter {
-  font-size: 40px;
-  padding: 0px 3px 0px 0px;
-  margin: 0px;
-  opacity: 0.5
-}
-#twitter:hover {
-  cursor: pointer;
-  opacity: 1;
+/* TILE 4 */
+.tile4 {
+  margin: 5px 1% 5px 1%;
+  height: 142px;
+  background-color: #ee5232;
+  text-align: justify;
+  position: relative;
+  font-size: 1.2rem;
 }
 #fa-quote-left {
-  font-size: 20px;
+  font-size: 1.2rem;
   margin-top: 0px;
 }
 .quotes {
   padding: 10px;
 }
+/* TILE 5 */
 .tile5 {
-  margin: 10px;
-  padding: 10px;
-  width: 460px;
-  height: 284px;
+  margin: 10px 1% 5px 1%;
+  padding: 10px 0px 10px 0px;
+  height: 274px;
   background-color: #666666;
   text-align: left;
 }
-
-/* ---------------------------------------------------------------------- */
-
-/*--- INDEX.HTML ---*/
 .tile5 h1 {
   font-family: 'Courgette', cursive;
-  padding-top: 30px;
+  margin: 10px;
+  padding-top: 50px;
   text-align: center;
   font-size: 3.5em;
 }
+/* ---------------------------------------------------------------------- */
 .me-txt {
   font-size: 25px;
   margin-top: 50px;
   margin-bottom: 65px;
 }
-
-/*--- WHO AM I? ---*/
-.main-img {
-  float: left;
-  height: 130px;
-  width: 130px;
-  margin: 0;
-  margin-right: 15px;
-  padding: 0;
-  border-radius: 50%;
-  border: solid 2px white;
-}
-.tech {
-  width: 100%;
-  margin: 15px 0px 0px 0px;
-  text-align: center;
-}
-.tech ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-.tech li {
-  margin: 0px 4px 0px 4px;
-  display: inline;
-}
-/*--- EDUCATION ---*/
-.pwr {
-  float: left;
-  height: 110px;
-  margin-right: 15px;
-}
-.pwr-txt {
-  font-size: 23px;
-}
-.courses {
-  margin-top: 5px;
-}
-/*--- CONTACT ---*/
-.contact-txt {
-  text-align: center;
-  color: black;
-  font-size: 25px;
-}
-#contact-env {
-  color: black;
-  font-size: 30px;
-}
-
 /* ---------------------------------------------------------------------- */
 
+/* ---------------------- socialMedia ----------------------*/
+/* LinkedIn */
 .in {
-  margin: 10px;
-  width: 105px;
+  margin: 5px 1% 0px 1%;
+  width: 23%;
   height: 142px;
   float:left;
   background: #0077B5;
@@ -194,12 +135,11 @@ body {
   background: #2299D7;
   border-bottom: 5px solid white;
 }
+/* GitHub */
 .GitHub {
-  margin: 10px;
-  width: 105px;
+  margin: 5px 1% 0px 1%;
+  width: 23%;
   height: 142px;
-  /*background-color: #c9510c;*/
-  /*background-color: #6e5494;*/
   background: linear-gradient(#a77fe0,#6e5494);
   float:left;
 }
@@ -209,11 +149,11 @@ body {
   background: linear-gradient(#c99ff2,#8f76B6);
   border-bottom: 5px solid white;
 }
+/* CodePen */
 .CodePen {
-  margin: 10px;
-  width: 105px;
+  margin: 5px 1% 0px 1%;
+  width: 23%;
   height: 142px;
-  /*background-color: #006400;*/
   background-color: #212121;
   float:left;
 }
@@ -223,9 +163,10 @@ body {
   background: #434343;
   border-bottom: 5px solid white;
 }
+/* Twitter */
 .Twitter {
-  margin: 10px;
-  width: 105px;
+  margin: 5px 1% 0px 1%;
+  width: 23%;
   height: 142px;
   background-color: #4099FF;
   float:left;
@@ -236,20 +177,18 @@ body {
   background: #62BBFF;
   border-bottom: 5px solid white;
 }
-i.fa {
-  color:white;
-  font-size: 75px;
-  margin-top: 30px;
-}
+
+/* footer */
 .footer {
-  position: absolute;
   left: 0;
+  position: absolute;
   right: 0;
-  bottom: 0;
   color: white;
+  bottom: 0;
   text-align: center;
   background: linear-gradient(to right, #303030,#666666,#303030);;
 }
+
 .footer i {
   font-size: 25px !important;
   margin: 2px;

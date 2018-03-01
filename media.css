@@ -1,0 +1,49 @@
+@media (min-width:300px) and (max-width:800px){
+  #logo {
+    text-align: center;
+    width: 100%;
+    font-size: 2.8rem;
+  }
+  #zegar {
+    display: none;
+  }
+  i.fa {
+    margin-top: 30px;
+    font-size: 3rem;
+  }
+  .square {
+    margin: 0px;
+    width: 100%;
+    float: none;
+  }
+  .tile4 {
+    display: none;
+  }
+  .tile5 {
+    margin: 5px 1% 5px 1%;
+    padding: 10px 0px 10px 0px;
+  }
+  .tile5 h1 {
+    margin: 10px;
+    padding-top: 50px;
+    font-size: 2.8rem;
+  }
+  .in, .GitHub, .CodePen, .Twitter {
+    height: 105px;
+  }
+}
+
+
+@media (min-width:801px) and (max-width:1024px){
+  #logo {
+    font-size: 3rem;
+    width: 70%;
+  }
+  #zegar {
+    font-size: 2.8rem;
+  }
+  i.fa {
+    margin-top: 40px;
+    font-size: 3rem;
+  }
+}
