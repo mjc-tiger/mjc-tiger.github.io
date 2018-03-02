@@ -111,13 +111,13 @@ i.fa {
   text-align: center;
   font-size: 3.5em;
 }
-/* ---------------------------------------------------------------------- */
-.me-txt {
+
+/* .me-txt {
   font-size: 25px;
   margin-top: 50px;
   margin-bottom: 65px;
 }
-/*--- WHO AM I? ---*/
+
 .main-img {
   float: left;
   height: 130px;
@@ -142,7 +142,7 @@ i.fa {
   margin: 0px 4px 0px 4px;
   display: inline;
 }
-/*--- EDUCATION ---*/
+
 .pwr {
   float: left;
   height: 110px;
@@ -154,7 +154,7 @@ i.fa {
 .courses {
   margin-top: 5px;
 }
-/*--- CONTACT ---*/
+
 .contact-txt {
   text-align: center;
   color: black;
@@ -163,8 +163,8 @@ i.fa {
 #contact-env {
   color: black;
   font-size: 30px;
-}
-/* ---------------------------------------------------------------------- */
+} */
+
 
 /* ---------------------- socialMedia ----------------------*/
 /* LinkedIn */
