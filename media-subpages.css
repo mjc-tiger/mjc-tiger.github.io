@@ -1,0 +1,37 @@
+@media (min-width:300px) and (max-width:800px){
+  /*--- whoamI.html ---*/
+  .main-img {
+    float: left;
+    height: 60px;
+    margin: 1%;
+    border-radius: 50%;
+    border: solid 2px white;
+  }
+  .me-txt {
+    font-size: 1.8rem;
+    margin: 60px 0px 60px 0px;
+  }
+  .adventure {
+    margin: 40px 5% 0px 5%;
+    text-align: justify;
+  }
+  .tech {
+    width: 100%;
+    margin: 15px 0px 0px 0px;
+    text-align: center;
+  }
+  .tech ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .tech li {
+    margin: 0px 1% 0px 1%;
+    display: inline;
+  }
+
+}
+
+@media (min-width:801px) and (max-width:1024px){
+
+}
